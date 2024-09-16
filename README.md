@@ -27,14 +27,29 @@ Você pode consultar um índice fazendo um `request` direto para o GitHub.
 ### Usando cURL
 
 ```shell
-curl --request GET --url https://raw.githubusercontent.com/investash/inflacao/main/ipca/2015.json
+curl --request GET --url https://raw.githubusercontent.com/investash/inflacao/main/ipca/valores.json
+```
+
+De um ano em específico:
+
+```shell
+curl --request GET --url https://raw.githubusercontent.com/investash/inflacao/main/ipca/anos/2005.json
 ```
 
 ### Python
 
 ```python
 import requests
-url = "https://raw.githubusercontent.com/investash/inflacao/main/ipca/2015.json"
+url = "https://raw.githubusercontent.com/investash/inflacao/main/ipca/valores.json"
+response = requests.get(url)
+print(response.json())
+```
+
+De um ano em específico:
+
+```python
+import requests
+url = "https://raw.githubusercontent.com/investash/inflacao/main/ipca/anos/2005.json"
 response = requests.get(url)
 print(response.json())
 ```
@@ -46,7 +61,25 @@ import axios from "axios";
 
 const options = {
   method: "GET",
-  url: "https://raw.githubusercontent.com/investash/inflacao/main/ipca/2015.json",
+  url: "https://raw.githubusercontent.com/investash/inflacao/main/ipca/valores.json",
+};
+
+try {
+  const { data } = await axios.request(options);
+  console.log(data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+De um ano em específico:
+
+```javascript
+import axios from "axios";
+
+const options = {
+  method: "GET",
+  url: "https://raw.githubusercontent.com/investash/inflacao/main/ipca/anos/2005.json",
 };
 
 try {
