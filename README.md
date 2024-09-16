@@ -1,23 +1,23 @@
 # Índices de Inflação no Brasil
 
-Esse projeto tem o objetivo de centralizar e disponibilizar dados em JSON dos 
+Esse projeto tem o objetivo de centralizar e disponibilizar dados em JSON dos
 principais índices de inflação do Brasil.
 
 ## Índices Disponibilizados
 
-| Índice          | Nome                                                     | Fonte |
-|-----------------|----------------------------------------------------------|-------|
-| IPCA            | Índice Nacional de Preços ao Consumidor Amplo            | IBGE  |
-| IPCA15          | Índice Nacional de Preços ao Consumidor Amplo 15         | IBGE  |
-| IPCA - 12 Meses | IPCA acumulado nos últimos 12 meses                      | IBGE  |
-| INPC            | Índice Nacional de Preços ao Consumidor                  | IBGE  |
-| IGP-M           | Índice Geral de Preços - Mercado                         | FGV   |
-| IGP-DI          | Índice Geral de Preços – Disponibilidade Interna         | FGV   |
-| IPC-BR          | Índice de Preços ao Consumidor - Brasil                  | FGV   |
-| IPC-M           | Índice de Preços ao Consumidor - Mercado                 | FGV   |
-| IPC-SP          | Índice de Preços ao Consumidor do Município de São Paulo | FIPE  |
+| Índice          | Última Atualização | Nome                                                     | Fonte |
+| --------------- | ------------------ | -------------------------------------------------------- | ----- |
+| IPCA            | 08/2024            | Índice Nacional de Preços ao Consumidor Amplo            | IBGE  |
+| IPCA15          | 08/2024            | Índice Nacional de Preços ao Consumidor Amplo 15         | IBGE  |
+| IPCA - 12 Meses | 08/2024            | IPCA acumulado nos últimos 12 meses                      | IBGE  |
+| INPC            | 08/2024            | Índice Nacional de Preços ao Consumidor                  | IBGE  |
+| IGP-M           | 08/2024            | Índice Geral de Preços - Mercado                         | FGV   |
+| IGP-DI          | 08/2024            | Índice Geral de Preços – Disponibilidade Interna         | FGV   |
+| IPC-BR          | 08/2024            | Índice de Preços ao Consumidor - Brasil                  | FGV   |
+| IPC-M           | 08/2024            | Índice de Preços ao Consumidor - Mercado                 | FGV   |
+| IPC-SP          | 08/2024            | Índice de Preços ao Consumidor do Município de São Paulo | FIPE  |
 
-Além dos índices de inflação, também é disponibilizado as metas de inflação definida pelo 
+Além dos índices de inflação, também é disponibilizado as metas de inflação definida pelo
 Banco Central para cada ano.
 
 ## Como consultar um índice?
@@ -42,11 +42,11 @@ print(response.json())
 ### Javascript - Axios
 
 ```javascript
-import axios from 'axios';
+import axios from "axios";
 
 const options = {
-  method: 'GET',
-  url: 'https://raw.githubusercontent.com/investash/inflacao/main/ipca/2015.json'
+  method: "GET",
+  url: "https://raw.githubusercontent.com/investash/inflacao/main/ipca/2015.json",
 };
 
 try {
