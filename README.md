@@ -1,7 +1,6 @@
 # Índices de Inflação no Brasil
 
-Esse projeto tem o objetivo de centralizar e disponibilizar dados em JSON dos
-principais índices de inflação do Brasil.
+Esse projeto tem o objetivo de centralizar e disponibilizar dados em JSON dos principais índices de inflação do Brasil.
 
 ## Índices Disponibilizados
 
@@ -17,8 +16,7 @@ principais índices de inflação do Brasil.
 | IPC-M           | 08/2024            | Índice de Preços ao Consumidor - Mercado                 | FGV   |
 | IPC-SP          | 08/2024            | Índice de Preços ao Consumidor do Município de São Paulo | FIPE  |
 
-Além dos índices de inflação, também é disponibilizado as metas de inflação definida pelo
-Banco Central para cada ano.
+Além dos índices de inflação, também é disponibilizado as **[metas de inflação](metas-de-inflacao.json)** definida pelo [Conselho Monetario Nacional (CMN)](https://www.bcb.gov.br/acessoinformacao/cmn) do Banco Central para cada ano.
 
 ## Como consultar um índice?
 
