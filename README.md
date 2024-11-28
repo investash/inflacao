@@ -7,7 +7,7 @@ Esse projeto tem o objetivo de centralizar e disponibilizar dados em JSON dos pr
 | Índice          | Última Atualização | Nome                                                     | Fonte |
 | --------------- | ------------------ | -------------------------------------------------------- | ----- |
 | IPCA            | 10/2024            | Índice Nacional de Preços ao Consumidor Amplo            | IBGE  |
-| IPCA15          | 10/2024            | Índice Nacional de Preços ao Consumidor Amplo 15         | IBGE  |
+| IPCA15          | 11/2024            | Índice Nacional de Preços ao Consumidor Amplo 15         | IBGE  |
 | IPCA - 12 Meses | 10/2024            | IPCA acumulado nos últimos 12 meses                      | IBGE  |
 | INPC            | 10/2024            | Índice Nacional de Preços ao Consumidor                  | IBGE  |
 | IGP-M           | 10/2024            | Índice Geral de Preços - Mercado                         | FGV   |
@@ -86,6 +86,18 @@ try {
 } catch (error) {
   console.error(error);
 }
+```
+
+### PHP - Guzzle
+
+```php
+<?php
+
+$client = new \GuzzleHttp\Client();
+
+$response = $client->request('GET', 'https://raw.githubusercontent.com/investash/inflacao/main/ipca/anos/2005.json');
+
+echo $response->getBody();
 ```
 
 ## Licença
