@@ -6,15 +6,15 @@ Esse projeto tem o objetivo de centralizar e disponibilizar dados em JSON dos pr
 
 | Índice          | Última Atualização | Nome                                                     | Fonte |
 | --------------- | ------------------ | -------------------------------------------------------- | ----- |
-| IPCA            | 10/2024            | Índice Nacional de Preços ao Consumidor Amplo            | IBGE  |
+| IPCA            | 11/2024            | Índice Nacional de Preços ao Consumidor Amplo            | IBGE  |
 | IPCA15          | 11/2024            | Índice Nacional de Preços ao Consumidor Amplo 15         | IBGE  |
-| IPCA - 12 Meses | 10/2024            | IPCA acumulado nos últimos 12 meses                      | IBGE  |
-| INPC            | 10/2024            | Índice Nacional de Preços ao Consumidor                  | IBGE  |
-| IGP-M           | 10/2024            | Índice Geral de Preços - Mercado                         | FGV   |
-| IGP-DI          | 10/2024            | Índice Geral de Preços – Disponibilidade Interna         | FGV   |
-| IPC-BR          | 10/2024            | Índice de Preços ao Consumidor - Brasil                  | FGV   |
-| IPC-M           | 10/2024            | Índice de Preços ao Consumidor - Mercado                 | FGV   |
-| IPC-SP          | 10/2024            | Índice de Preços ao Consumidor do Município de São Paulo | FIPE  |
+| IPCA - 12 Meses | 11/2024            | IPCA acumulado nos últimos 12 meses                      | IBGE  |
+| INPC            | 11/2024            | Índice Nacional de Preços ao Consumidor                  | IBGE  |
+| IGP-M           | 11/2024            | Índice Geral de Preços - Mercado                         | FGV   |
+| IGP-DI          | 11/2024            | Índice Geral de Preços – Disponibilidade Interna         | FGV   |
+| IPC-BR          | 11/2024            | Índice de Preços ao Consumidor - Brasil                  | FGV   |
+| IPC-M           | 11/2024            | Índice de Preços ao Consumidor - Mercado                 | FGV   |
+| IPC-SP          | 11/2024            | Índice de Preços ao Consumidor do Município de São Paulo | FIPE  |
 
 Além dos índices de inflação, também é disponibilizado as **[metas de inflação](metas-de-inflacao.json)** definida pelo [Conselho Monetario Nacional (CMN)](https://www.bcb.gov.br/acessoinformacao/cmn) do Banco Central para cada ano.
 
